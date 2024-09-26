@@ -19,8 +19,8 @@ run <br/>
 ```
 python predict.py --file_path YOUR_PREDICT_FILE_PATH --model_path YOUR_MODEL_PATH --output_dir OUTPUT_DIRCTORY_PATH
 ```
-
 <br/>
+
 for example: <br/>
 ```python
 python predict.py --file_path ./small_test.tsv --model_path D:\CC\
