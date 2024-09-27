@@ -28,3 +28,11 @@ python predict.py --file_path ./small_test.tsv --model_path D:\CC\
 ```
 <br/>
 
+## visualize
+run <br/>
+```
+tensorboard --logdir=runs/
+```
+<br/>
+Here, you will see the loss and accuracy curve of train dataset and validation dataset, and also the confusion matrix of prediction dataset(after you run 'predict.py').
+<br/>
