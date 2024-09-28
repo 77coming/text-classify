@@ -1,6 +1,7 @@
 # text-classify
-a small exercise
+an exercise
 
+1.use TF-IDF to process the text.
 ## train
 run <br />
 ```
@@ -39,8 +40,11 @@ Here, you will see the loss and accuracy curve of train dataset and validation d
 <br/>
 
 ## result
-best Train Loss:0.00028, Train Acc:0.99994, Val Loss:0.18577, Val Acc:0.96070
+best Train Acc:0.99994, Val Acc:0.96080
 model saved to model_epoch35_ValLoss0.18576954506317656.pth
 <br/>
 
 ![](./train_loss.png)
+
+2. use word2vec model to classify.
+run w2vec_model.py
