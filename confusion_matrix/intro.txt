@@ -1,0 +1,1 @@
+This directory is to save pictures of confusion_matrix after predicting.
