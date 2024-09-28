@@ -1,8 +1,8 @@
 # text-classify
 an exercise
 
-1.use TF-IDF to process the text.
-## train
+## 1.use TF-IDF to process the text.
+### train
 run <br />
 ```
 python train.py --train_file YOUR_TRAIN_FILE_PATH --val_file YOUR_VAL_FILE_PATH --num_epochs NUM_EPOCHS --batch_size BATCH_sIZE --lr LEARNING_RATE
@@ -15,7 +15,7 @@ python train.py --train_file ./train.tsv --val_file ./test.tsv --num_epochs 50 -
 ```
 <br/>
 
-## predict
+### predict
 run <br/>
 ```
 python predict.py --file_path YOUR_PREDICT_FILE_PATH --model_path YOUR_MODEL_PATH --output_dir OUTPUT_DIRCTORY_PATH
@@ -31,7 +31,7 @@ python predict.py --file_path ./small_test.tsv --model_path D:\CC\
 
 after predict, confusion_matrix will be saved.
 ![](./predict_cm_checkpointmodelepoch2ValAcc0.96120000pth.png)
-## visualize
+### visualize
 run 
 ```
 tensorboard --logdir=runs/
@@ -41,17 +41,17 @@ After running ,if you see information like this 'TensorBoard 2.16.2 at http://lo
 Here, you will see the loss and accuracy curve of train dataset and validation dataset, and also the confusion matrix of prediction dataset(after you run 'predict.py').
 <br/>
 
-## result
+### result
 best Train Acc:0.99994, Val Acc:0.96080
 model saved to model_epoch35_ValLoss0.18576954506317656.pth
 <br/>
 
 ![](./train_loss.png)
 
-Another 2 versions.
+Another two versions.
 ![](./train_loss2.png)
 
-2. use word2vec model to classify.
+## 2. use word2vec model to classify.
 run w2vec_model.py
 <br/>
 
