@@ -29,6 +29,8 @@ python predict.py --file_path ./small_test.tsv --model_path D:\CC\
 ```
 <br/>
 
+after predict, confusion_matrix will be saved.
+![](./predict_cm_checkpointmodelepoch2ValAcc0.96120000pth.png)
 ## visualize
 run 
 ```
