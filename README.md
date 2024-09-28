@@ -42,4 +42,5 @@ Here, you will see the loss and accuracy curve of train dataset and validation d
 best Train Loss:0.00028, Train Acc:0.99994, Val Loss:0.18577, Val Acc:0.96070
 model saved to model_epoch35_ValLoss0.18576954506317656.pth
 <br/>
-![](images/train_loss.png)
+
+![](./train_loss.png)
