@@ -36,7 +36,7 @@ def remove_punctuation(text):
     text_l = jieba.lcut(text)
     text_l = [item for item in text_l if item!=' '] #分词
 
-    with open('./stopwords_cn.txt','r',encoding='utf-8') as file:
+    with open('../stopwords_cn.txt','r',encoding='utf-8') as file:
         stopwords = [line.strip() for line in file.readlines()]
     text_l = [word for word in text_l if word not in stopwords] #去除停用词
 
@@ -198,7 +198,7 @@ for epoch in range(num_epochs):
     if best_acc < epoch_accuracy:
         count=0
         best_acc = epoch_accuracy
-        torch.save(model.state_dict(), f'./use_w2vec_model/model_epoch{epoch+1}_TrainAcc{epoch_accuracy:.8f}.pth')
+        torch.save(model.state_dict(), f'../use_w2vec_model/model_epoch{epoch+1}_TrainAcc{epoch_accuracy:.8f}.pth')
         print(f'model saved to model_epoch{epoch+1}_TrainAcc{epoch_accuracy}.pth')
             
     else:
