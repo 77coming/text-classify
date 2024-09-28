@@ -1,6 +1,6 @@
 # text-classify
 an exercise
-
+* The dataset is too large to upload. Please download on your own and put it in main. 
 ## 1.use TF-IDF to process the text.
 ### train
 run <br />
