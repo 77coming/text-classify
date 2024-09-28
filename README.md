@@ -38,3 +38,8 @@ After running ,if you see information like this 'TensorBoard 2.16.2 at http://lo
 Here, you will see the loss and accuracy curve of train dataset and validation dataset, and also the confusion matrix of prediction dataset(after you run 'predict.py').
 <br/>
 
+## result
+best Train Loss:0.00028, Train Acc:0.99994, Val Loss:0.18577, Val Acc:0.96070
+model saved to model_epoch35_ValLoss0.18576954506317656.pth
+<br/>
+![](images/train_loss.png)
