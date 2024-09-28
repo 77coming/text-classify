@@ -1,0 +1,1 @@
+2. use word2vec to vectorize text.
