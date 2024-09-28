@@ -48,6 +48,9 @@ model saved to model_epoch35_ValLoss0.18576954506317656.pth
 
 ![](./train_loss.png)
 
+Another 2 versions.
+![](./train_loss2.png)
+
 2. use word2vec model to classify.
 run w2vec_model.py
 <br/>
